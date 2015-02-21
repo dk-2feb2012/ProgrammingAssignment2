@@ -1,4 +1,6 @@
-## The following functions cache the inverse of a matrix.
+## The following functions facilitate the calculation of the inverse of a
+## matrix in an efficient way, which involves caching the inverse once it gets
+## calculated.
 
 ## This function creates a special "matrix" object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
